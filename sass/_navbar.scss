@@ -1,5 +1,52 @@
-@use 'global' as *;  
-.navbar{
-    border: 1px solid red;
-    background-color: $bg-color;
+@use "sass:color";
+@use "global" as *;
+
+.navbar {
+  border: 1px solid red;
+  background-color: $bg-color;
+  padding: 1rem;
+
+  &__list {
+    display: flex;
+
+    li {
+      margin-right: 2rem;
+
+      a {
+        color: $text-primary;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: color.adjust($text-primary, $lightness: 20%);
+        }
+      }
+    }
+
+    .dropdown {
+      position: relative;
+
+      &__menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: $dropdown-color;
+        padding: 1rem;
+        list-style: none;
+        li {
+          margin: 0.5rem 0;
+
+          a {
+            color: $text-primary;
+            font-size: 1rem;
+          }
+        }
+      }
+
+      &:hover .dropdown__menu {
+        display: block;
+      }
+    }
+  }
 }
