@@ -44,9 +44,10 @@
         }
       }
 
-      &:hover .dropdown__menu {
-        display: block;
-      }
+
     }
+  }
+  .show{
+      display:block;
   }
 }
