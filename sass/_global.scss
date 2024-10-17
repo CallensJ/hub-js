@@ -1,0 +1,30 @@
+/* GENERAL STYLES AND CLASSES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+
+$bg-color: #333;
+$text-primary: #fff;
+$dropdown-color: #444;
+
+
+.container{
+    max-width: 1440px;
+    border : 1px solid black;
+    margin: 0 auto;
+    
+}

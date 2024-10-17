@@ -1,0 +1,5 @@
+@use 'global' as *;  
+.navbar{
+    border: 1px solid red;
+    background-color: $bg-color;
+}
