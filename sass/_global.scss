@@ -19,7 +19,7 @@
 
 $bg-color: #333;
 $text-primary: #fff;
-$dropdown-color: #444;
+$bg-light: #444;
 
 
 .container{
@@ -27,4 +27,17 @@ $dropdown-color: #444;
     border : 1px solid black;
     margin: 0 auto;
     
+}
+
+.btn{
+  padding: .5rem 2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.wrapper{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }

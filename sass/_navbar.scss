@@ -31,7 +31,7 @@
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: $dropdown-color;
+        background-color: $bg-light;
         padding: 1rem;
         list-style: none;
         li {
@@ -43,11 +43,9 @@
           }
         }
       }
-
-
     }
   }
-  .show{
-      display:block;
+  .show {
+    display: block;
   }
 }
