@@ -24,7 +24,7 @@ dropdownLinks.forEach((link) => {
 //github api
 
 const octokit = new Octokit({ 
-  auth: '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'
+  auth: 'MYTOKEN'
 });
 
 
